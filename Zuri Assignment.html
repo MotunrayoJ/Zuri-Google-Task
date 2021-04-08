@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta https-equi="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Google Task</title>
+    </head>
+    <style>
+        body,p{
+            margin: 0;
+            padding: 0;
+        }
+        nav{
+            display:flex;
+            justify-content: space-around;
+            width: 20%;
+            margin-left: auto;
+        }
+        a{
+            color: black;
+            text-decoration: none;
+            padding: 2em;
+        }
+        a :hover{
+            text-decoration: underline;
+        }
+        nav img{
+            height: 20px;
+        }
+        main{
+            width: 50%;
+            margin:6.9em auto;
+            text-align: center;
+        }
+        input{
+            width: 80%;
+            padding: 1em;
+            border-radius:30px ;
+            border:1px solid gray;
+        }
+        .upbtn-container{
+            margin-top: 1em;
+        }
+        .upbtn-container button{
+            padding:1em;
+            border: none;
+        }
+        footer{
+            background-color: rgb(240, 236, 236);
+        }
+        .footer-top{
+            padding: 1em;
+        }
+.footer-bottom{
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid gray;
+}
+.left a{
+    margin:1em;
+}
+.right a{
+    margin-right: 1em;
+}
+    </style>
+    <body>
+        <header>
+            <nav>
+                <a href="#">Gmail</a>
+          <a href="#">Images</a>
+          <img src="googledots.jpeg" alt="googledots">  
+        </nav>
+        </header>
+        <main>
+            <img src="googleimage.jpeg" alt="googleimage">
+        <input type="text"/>
+        <div class="upbtn-container">
+            <button onclick="myTask()">Google Search</button>
+            <button onclick="myFunction()" >I'm feeling lucky</button>
+
+        </div>
+        </main>
+        <footer>
+            <div class="footer_top">
+<p>Nigeria</p>
+            </div>
+
+            <div class="footer-bottom">
+<div class="left">
+    <a>About</a>
+    <a>Advertising</a>
+    <a>Business</a>
+    <a>How Search Works</a>
+</div>
+
+    <a>Carbon Neutral Since 2007</a>
+
+    <div class="right">
+        <a>Privacy</a>
+        <a>Terms</a>
+        <a>Settings</a>
+
+    </div>
+</div>
+            </div>
+        </footer>
+        <script>
+            function myFunction() {
+  alert("Hello! I'm done with this task!");
+}
+function myTask() {
+  alert("Hello! I'm done with this task!");
+}
+            </script>
+    </body>
+</html>
